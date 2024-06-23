@@ -1,0 +1,41 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "DatoIntent",
+          "samples": [
+            "dime una curiosidad sobre las estrellas",
+            "cuéntame un dato sobre las estrellas",
+            "hablame sobre las estrellas",
+            "que sabes de las estrellas",
+            "dame oto dato curioso"
+          ]
+        }
+      ],
+      "types": [],
+      "invocationName": "star curiosities"
+    }
+  }
+}

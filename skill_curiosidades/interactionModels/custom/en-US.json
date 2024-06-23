@@ -1,0 +1,41 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "DatoIntent",
+          "samples": [
+            "tell me a curiosity about the stars",
+            "tell me a fact about the stars",
+            "tell me about the stars",
+            "what do you know about the stars",
+            "give me another curious fact"
+          ]
+        }
+      ],
+      "types": [],
+      "invocationName": "star curiosities"
+    }
+  }
+}
