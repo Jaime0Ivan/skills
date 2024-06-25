@@ -1,0 +1,88 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "HelloWorldIntent",
+          "samples": [
+            "hello",
+            "how are you",
+            "say hi world",
+            "say hi",
+            "hi",
+            "say hello world",
+            "say hello"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "slots": [
+            {
+              "name": "value",
+              "type": "AMAZON.NUMBER"
+            },
+            {
+              "name": "unitOne",
+              "type": "converType"
+            },
+            {
+              "name": "unitTwo",
+              "type": "converType"
+            },
+            {
+              "name": "num",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "name": "ConversorIntent",
+          "samples": [
+            "convert {num} {unitOne} to {unitTwo}"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "feet"
+              }
+            },
+            {
+              "name": {
+                "value": "yards"
+              }
+            },
+            {
+              "name": {
+                "value": "inches"
+              }
+            }
+          ],
+          "name": "converType"
+        }
+      ],
+      "invocationName": "conversor de unidades"
+    }
+  }
+}
